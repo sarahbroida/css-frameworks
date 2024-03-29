@@ -89,6 +89,16 @@ section {
     justify-content: var(--justify-important);
 }
 
+.benefits {
+    display:block;
+    text-align: center;
+}
+
+.testimonials {
+    display: inline;
+    text-align: center;
+}
+
 section img,
 article img {
     max-width: 100%;
@@ -514,6 +524,7 @@ blockquote {
     max-width: var(--width-card-medium);
     padding: 1.5rem 1rem;
     text-align: var(--justify-important);
+    font-style: italic;
 }
 
 blockquote footer {
